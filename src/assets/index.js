@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import webicon from "./web-icon.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,15 +21,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import lifehash from "./company/lifehash.jpeg";
+import openClassrooms from "./company/openClassrooms.png";
 
+import threadsapp from "./threads-app.png";
+import githubsearch from "./github-search-thumbnail.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import memorygame from "./memory-game-thumbnail.webp";
+import issuetracker from "./issue-tracker.svg";
 
 export {
   logo,
@@ -52,6 +60,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  mysql,
   meta,
   shopify,
   starbucks,
@@ -59,4 +68,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  lifehash,
+  openClassrooms,
+  threadsapp,
+  webicon,
+  githubsearch,
+  memorygame,
+  issuetracker,
 };

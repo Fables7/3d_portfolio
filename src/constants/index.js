@@ -16,13 +16,19 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  lifehash,
+  openClassrooms,
+  mysql,
+  threadsapp,
+  githubsearch,
+  memorygame,
+  issuetracker,
 } from "../assets";
 
 export const navLinks = [
@@ -112,54 +118,34 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Junior Developer",
+    company_name: "Lifehash",
+    icon: lifehash,
+    iconBg: "#ffffff",
+    date: "September 2021 - July 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built an interactive website for the Zinnia Block explorer site",
+      "using React, including creating and maintaining the UI components, managing state using Redux, and consuming RESTful APIs to display data dynamically.",
+      "Developed custom reusable components and templates to improve development efficiency and maintain consistency across multiple projects.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Frontend Web Developer Bootcamp",
+    company_name: "OpenClassrooms",
+    icon: openClassrooms,
+    iconBg: "#7f5bee",
     date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -197,6 +183,56 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Threads App",
+    description:
+      "A social media app that allows users to create and share threads. Users can also like and comment on posts, and join communities.",
+    tags: [
+      { name: "nextjs", color: "text-white" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: threadsapp,
+    source_code_link: "https://github.com/Fables7/threads_app",
+    live_demo_link: "https://threads-app-snowy-beta.vercel.app/",
+  },
+  {
+    name: "Github Search",
+    description:
+      "A small website that allows users to search for Github users and view their profile information.",
+    tags: [
+      { name: "nextjs", color: "text-white" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: githubsearch,
+    source_code_link: "https://github.com/Fables7/github-user-search-app",
+    live_demo_link: "https://fables7-github-search-user.netlify.app/",
+  },
+  {
+    name: "Memory Game",
+    description:
+      "A web memory game with different levels and can be played with multiple people.",
+    tags: [
+      { name: "nextjs", color: "text-white" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: memorygame,
+    source_code_link: "https://github.com/Fables7/memory-game",
+    live_demo_link: "https://fables7-memory-game.netlify.app/",
+  },
+  {
+    name: "Issue Tracker",
+    description:
+      "An issue tracker web application that allows users to create, update, and delete issues.",
+    tags: [
+      { name: "nextjs", color: "text-white" },
+      { name: "mysql", color: "orange-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: issuetracker,
+    source_code_link: "https://github.com/Fables7/issue-tracker",
+    live_demo_link: "https://issue-tracker-delta-sage.vercel.app/",
+  },
   {
     name: "Car Rent",
     description:
