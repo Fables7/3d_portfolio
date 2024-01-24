@@ -48,6 +48,8 @@ const ComputersCanvas = () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
+
+  if (isMobile) return null;
   return (
     <Canvas
       frameloop="demand"
